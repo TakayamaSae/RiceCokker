@@ -16,7 +16,7 @@ class Alarm {
     var limit: Minute = .whitericemode
     
     init() {
-        timer = Timer.scheduledTimer(timeInterval: 1,
+        timer = Timer.scheduledTimer(timeInterval: 60,
                                      target: self,
                                      selector: #selector(countup),
                                      userInfo: nil,
